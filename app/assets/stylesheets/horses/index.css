@@ -1,0 +1,27 @@
+/* リセットCSS */
+body {
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+/* トップ画面全体 */
+.horse-index-main{
+  width: 100vw;
+  height: 100vh;
+}
+/* トップ画像 */
+.main-image{
+  width: 100%;
+  object-fit: contain;
+  position: absolute;
+}
+/* トップタイトル */
+.main-title{
+  position: relative;top: 15px;left: 32vw;
+}
+
+.fade{
+
+  animation: fadeIn 0.2s ease 0.3s 1 normal;
+
+}
