@@ -40,16 +40,13 @@ https://perfectrap334.herokuapp.com/
 # DEMO
 
 ## トップページ
-![トップページ]
-(https://i.gyazo.com/8cec1a12ec73b8de118bcecbadba863b.jpg)
+![トップページ](https://i.gyazo.com/8cec1a12ec73b8de118bcecbadba863b.jpg)
 
 ## レース選択〜出走馬確認画面
-![レース選択〜出走馬確認画面]
-(https://i.gyazo.com/d5f458d1103b128e9848957a7be374cf.gif)
+![レース選択〜出走馬確認画面](https://i.gyazo.com/d5f458d1103b128e9848957a7be374cf.gif)
 
 ## 出走馬選択〜ラップ分析結果表示画面
-![出走馬選択〜ラップ分析結果表示画面]
-(https://i.gyazo.com/2ba624b5d1eb0c83f3a9d107fd3fc82b.gif)
+![出走馬選択〜ラップ分析結果表示画面](https://i.gyazo.com/2ba624b5d1eb0c83f3a9d107fd3fc82b.gif)
 
 
 # 工夫したポイント
