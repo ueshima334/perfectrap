@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  height: 50px;
+  background-color: palegoldenrod;
+  align-items: center;
+  padding: 0 30px;
+  justify-content: space-between;
+}
+
+.menu-item {
+  list-style: none;
+  display: inline-block;
+  padding: 10px;
+}
+
+.menu-item, .header-title{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}

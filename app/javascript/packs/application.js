@@ -9,6 +9,9 @@ require("@rails/activestorage").start()
 require("channels")
 require('jquery') 
 require("index.js")
+require("chartkick")
+require("chart.js")
+require('rap-comment')
 //= require jquery_ujs
 
 // Uncomment to copy all static images under ../images to the output folder and reference

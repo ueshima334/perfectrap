@@ -1,0 +1,42 @@
+<%= render "shared/header" %>
+<%# <div class="menu-box"> %>
+<%# <%= link_to 'レース削除',plan_path(@plan),method: :delete,class:"plan-delete"%> 
+<%# </div> %>
+
+<div class="plan-show-all">
+
+  <div class="plan-show-title">
+   <%= @plan.title%>
+  </div>
+
+<div class="plan-show-info">
+
+<div class="plan-show-day">
+  <%= @plan.day %>
+</div>
+
+<div class="plan-show-place">
+  <%= @plan.place %>競馬場
+  </div>
+
+<div class="plan-show-terms">
+  <%= @plan.terms%>
+</div>
+</div>
+
+<div class="plan-show-index">
+出走予定馬
+</div>
+
+<div class="plan-show-horses">
+<% @horses.each do |horse| %>
+  <div class="plan-show-horse">
+<% if Horse.exists?(name:horse)%>
+  <%=link_to horse,horse_path(Horse.find_by(name: horse),racename: "#{@plan.title}") %>
+ <% end%>
+ </div>
+  
+<% end %>
+</div>
+
+</div>

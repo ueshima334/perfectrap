@@ -1,20 +1,19 @@
-<div class="horse-index-main">
+<div class="user-new-top">
+<%= link_to '戻る',root_path,class:'return-btn'%>
+</div>
 
-  <div class="horse-index-title">　
-	　
-    <%= image_tag "perfectrap.png",class:"main-title"%>
-　　 ラップタイム分析で好走馬を見抜く
-  </div>
-  <div class="fade">
-    <div class="wrap load-up">
-      <div class="horse-index-comment">
-         ラップ分析を始める
-      </div>
-      <div class="horse-index-btn">
-         <%= link_to "ENTER",'#', class:"enter-btn" %>
-       </div>
-    </div>
+<div class= "horse-index">
 
-  </div>
+<div class="enter-horse-new">
+  <%= link_to '馬の登録',new_horse_path,class:"new-registration" %>
+</div>
+
+<div class="enter-horse-new">
+  <%= link_to 'レースの登録',new_race_path,class:"new-registration"%>
+</div>
+
+<div class="enter-horse-new">
+  <%= link_to '開催予定レースの登録',new_plan_path,class:"new-registration"%>
+</div>
 
 </div>
