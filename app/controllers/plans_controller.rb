@@ -28,6 +28,7 @@ class PlansController < ApplicationController
   
   end
   
+# plansテーブル削除機能
   # def destroy
   #   @plan = Plan.find(params[:id])
   #   @plan.destroy
