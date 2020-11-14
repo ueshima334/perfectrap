@@ -65,3 +65,7 @@ gem 'mechanize'
 gem 'dotenv-rails'
 gem 'gon'
 gem 'bootstrap', '~> 4.1.1'
+
+group :production do
+  gem 'rails_12factor'
+end
